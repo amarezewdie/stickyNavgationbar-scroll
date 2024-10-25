@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+   
+    min-height: 200vh;
+    background: #000;
+}
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px 50px;
+  align-items: center;
+  transition: all 0.8s linear;
+  
+}
+.sticky{
+    background: white;
+    padding:5px 50px;
+
+}
+.sticky .logo{
+    color: black;
+}
+.sticky .link{
+    color: #000;
+}
+header .logo {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+}
+
+header ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: sp;
+  gap: 1rem;
+  align-items: center;
+  list-style-type: none;
+}
+.link {
+  text-transform: capitalize;
+  text-decoration: none;
+  align-self: end;
+  color: white;
+  font-size: 1.3rem;
+}
+.banner{
+    min-height: 200vh;
+}
+
+
